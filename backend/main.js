@@ -6,8 +6,8 @@ var cors = require("cors");
 
 //.env variables
 require("dotenv").config();
-const { Mongo_URI, Backend_Port } = process.env;
-const port = Backend_Port;
+const { Mongo_URI, BACKEND_PORT } = process.env;
+const port = BACKEND_PORT;
 const MongoURI = Mongo_URI;
 const {
   getUser,

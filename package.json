@@ -1,0 +1,9 @@
+{
+    "scripts":
+    {
+        "frontend:start":"cd frontend/myapp && npm start",
+        "frontend:install":"cd frontend && npm install && cd myapp && npm install -f",
+        "backend:start":"cd backend && node main.js",
+        "backend:install":"cd backend && npm install -f"
+    }
+}
