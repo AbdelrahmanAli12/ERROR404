@@ -284,7 +284,7 @@ const MainHeader = ({ values }) => {
 
   return (
     <Header
-      theme="light"
+      theme="dark"
       style={{
         color: "white",
         display: "flex",
