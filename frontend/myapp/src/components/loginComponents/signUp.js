@@ -338,7 +338,7 @@ const WrapperSignUp = ({ values }) => {
     <>
       <Drawer
         title="Create a new account"
-        width="40vw"
+        width="30%"
         onClose={onClose}
         open={open}
         bodyStyle={{
@@ -361,7 +361,7 @@ const WrapperSignUp = ({ values }) => {
           <Image
             width={200}
             preview={false}
-            src="https://drnajafbeigi.com/wp-content/uploads/404%D8%AB.png"
+            src={require("../../images/logo.png")}
           />
           <Form
             form={form}

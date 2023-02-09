@@ -51,7 +51,7 @@ const ReviewCourseComponent = ({ Id, username }) => {
             onChange={setValue}
             value={value}
             style={{
-              color: "red",
+              color: "gold",
             }}
           />
           {value ? (

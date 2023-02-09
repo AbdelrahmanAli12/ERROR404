@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -178,7 +178,7 @@ body {
   display: table;
   font-family: Georgia, serif;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
 }
 .container {
   border: 20px solid tan;

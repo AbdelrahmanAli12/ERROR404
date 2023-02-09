@@ -57,7 +57,7 @@ const ReviewComponent = ({ instructor, username }) => {
             tooltips={desc}
             onChange={setValue}
             value={value}
-            style={{ color: "red" }}
+            style={{ color: "gold" }}
           />
           {value ? (
             <span className="ant-rate-text">{desc[value - 1]}</span>

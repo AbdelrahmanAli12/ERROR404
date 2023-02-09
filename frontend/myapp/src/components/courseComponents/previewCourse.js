@@ -144,7 +144,7 @@ const PreviewCourseWrapper = () => {
                 allowHalf
                 value={courseData.rating}
                 style={{
-                  color: "red",
+                  color: "gold",
                 }}
               />
               {user == "individual" || user == "" ? (

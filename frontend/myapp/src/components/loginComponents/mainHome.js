@@ -242,8 +242,7 @@ const LoginComponent = ({ values }) => {
         <br />
         <Link to="/forgotpassword">Forgot Password</Link>
         <br />
-        <br />
-        <h6>Have not joined us yet?</h6>
+        <h4>Have not joined us yet?</h4>
 
         <Link
           type="link"

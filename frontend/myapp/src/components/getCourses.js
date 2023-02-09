@@ -113,7 +113,7 @@ const SearchByForm = ({ values }) => {
                         defaultValue={4.5}
                         allowHalf
                         style={{
-                          color: "red",
+                          color: "gold",
                         }}
                       ></Rate>
                     </Radio>
@@ -127,7 +127,7 @@ const SearchByForm = ({ values }) => {
                         defaultValue={4}
                         allowHalf
                         style={{
-                          color: "red",
+                          color: "gold",
                         }}
                       ></Rate>
                     </Radio>
@@ -141,7 +141,7 @@ const SearchByForm = ({ values }) => {
                         defaultValue={3.5}
                         allowHalf
                         style={{
-                          color: "red",
+                          color: "gold",
                         }}
                       ></Rate>
                     </Radio>
@@ -155,7 +155,7 @@ const SearchByForm = ({ values }) => {
                         defaultValue={3}
                         allowHalf
                         style={{
-                          color: "red",
+                          color: "gold",
                         }}
                       ></Rate>
                     </Radio>

@@ -160,7 +160,7 @@ const CourseComponentTrainee = ({ courses, viewType }) => {
                   defaultValue={item.rating}
                   disabled={true}
                   style={{
-                    color: "red",
+                    color: "gold",
                   }}
                 />
               }

@@ -187,7 +187,7 @@ const AdminViewCourseComponent = () => {
                         defaultValue={item.rating}
                         disabled={true}
                         style={{
-                          color: "red",
+                          color: "gold",
                         }}
                       />
                     </div>

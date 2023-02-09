@@ -51,7 +51,7 @@ const ReviewNavigation = () => {
         value={rate}
         disabled={true}
         style={{
-          color: "red",
+          color: "gold",
         }}
       />
       <br />

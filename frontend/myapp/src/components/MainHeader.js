@@ -284,7 +284,7 @@ const MainHeader = ({ values }) => {
 
   return (
     <Header
-      theme="dark"
+      theme="light"
       style={{
         color: "white",
         display: "flex",
@@ -309,7 +309,7 @@ const MainHeader = ({ values }) => {
       >
         <Image
           preview={false}
-          src="https://drnajafbeigi.com/wp-content/uploads/404%D8%AB.png"
+          src={require("../images/logo.png")}
           height="100%"
         />
       </Link>
