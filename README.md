@@ -292,30 +292,24 @@ To run this project, you will need to add the following environment variables to
 ##### [back to top](#table-of-contents)
 
 ## Run Locally Installation 
-Install the used libraries for the backEnd
+Install the used libraries for the BackEnd
 
 ```bash
-  cd backend
-  then
-  npm install
+  npm run backend:install
 ```
 
 Install the used libraries for the frontEnd
 
 ```bash
-  cd frontend
-  then
-  npm install
+  npm run frontend:install
 ```
 To run the backEnd
 ```bash
-  node backend/main.js
+ npm run backend:start
 ```
 To run the frontEnd
 ```bash
-  cd frontend/myapp 
-  then
-  npm start
+  npm run frontend:start
 ```
 ## How to use
 You are welcome to be one of the four primary users of our website (Admin, instructor, trainee, and corporate trainee). You can make an account and login to the website as a trainee by using the sign up page to create an account, or if you are an instructor, the company will create an account for you on its own. After that, you will be able to utilise our features, log in, and change your password.
