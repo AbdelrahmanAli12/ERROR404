@@ -1,15 +1,5 @@
-import {
-  Layout,
-  Button,
-  Checkbox,
-  Form,
-  Input,
-  Select,
-  Breadcrumb,
-  Menu,
-  Image,
-} from "antd";
-const { Header, Footer, Sider, Content } = Layout;
+import { Layout, Image } from "antd";
+const { Header } = Layout;
 
 const MainHeader = () => {
   <Header theme="light">

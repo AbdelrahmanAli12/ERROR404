@@ -8,34 +8,30 @@ const { Option } = Select;
 const { Panel } = Collapse;
 
 const ViewAllCoursesPriceWrapper = () => {
-    return (
-      <App>
-        <ViewAllCoursesPrice />
-      </App>
-    );
-  };
-
-  const ViewAllCoursesPrice = () => {
-    const [data, setData] = useState([]);
-    const [isModalOpen, setIsModalOpen] = useState(false);
-  
-const showModal = () => {
-  setIsModalOpen(true);
+  return (
+    <App>
+      <ViewAllCoursesPrice />
+    </App>
+  );
 };
-
-const handleOk = () => {
-  setIsModalOpen(false);
-};
-
-const handleCancel = () => {
-  setIsModalOpen(false);
-};
-
-useEffect(() => {
-  console.log("data =>  ", data);
-}, [data]);
 
 const ViewAllCoursesPrice = () => {
+  const [data, setData] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
+  useEffect(() => {
+    console.log("data =>  ", data);
+  }, [data]);
+
+  const ViewAllCoursesPrice = () => {
     setIsModalOpen(true);
     axios({
       method: "get",
